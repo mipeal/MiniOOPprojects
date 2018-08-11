@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EC6C9736-1A41-4B05-9631-87631BDAB4F4}</ProjectGuid>
+    <ProjectGuid>{BC05EAB3-3D61-420F-B41B-8EF0C82EDDA0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SmallBankSystem</RootNamespace>
-    <AssemblyName>SmallBankSystem</AssemblyName>
+    <RootNamespace>EmployeeSalarySystem</RootNamespace>
+    <AssemblyName>EmployeeSalarySystem</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,18 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Account.cs" />
-    <Compile Include="Model\Customer.cs" />
-    <Compile Include="SmallBankUI.cs">
+    <Compile Include="ESSUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SmallBankUI.Designer.cs">
-      <DependentUpon>SmallBankUI.cs</DependentUpon>
+    <Compile Include="ESSUI.Designer.cs">
+      <DependentUpon>ESSUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\Employee.cs" />
+    <Compile Include="Model\Salary.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="SmallBankUI.resx">
-      <DependentUpon>SmallBankUI.cs</DependentUpon>
+    <EmbeddedResource Include="ESSUI.resx">
+      <DependentUpon>ESSUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

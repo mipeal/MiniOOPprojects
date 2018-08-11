@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallBankSystem", "SmallBankSystem\SmallBankSystem.csproj", "{EC6C9736-1A41-4B05-9631-87631BDAB4F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeSalarySystem", "EmployeeSalarySystem\EmployeeSalarySystem.csproj", "{BC05EAB3-3D61-420F-B41B-8EF0C82EDDA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversitySystem", "UniversitySystem\UniversitySystem.csproj", "{20C22D82-8AE6-48D4-B91D-539769EC6E61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{EC6C9736-1A41-4B05-9631-87631BDAB4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC6C9736-1A41-4B05-9631-87631BDAB4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC6C9736-1A41-4B05-9631-87631BDAB4F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC05EAB3-3D61-420F-B41B-8EF0C82EDDA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC05EAB3-3D61-420F-B41B-8EF0C82EDDA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC05EAB3-3D61-420F-B41B-8EF0C82EDDA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC05EAB3-3D61-420F-B41B-8EF0C82EDDA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C22D82-8AE6-48D4-B91D-539769EC6E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C22D82-8AE6-48D4-B91D-539769EC6E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C22D82-8AE6-48D4-B91D-539769EC6E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C22D82-8AE6-48D4-B91D-539769EC6E61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

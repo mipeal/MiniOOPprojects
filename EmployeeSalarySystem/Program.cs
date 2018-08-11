@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SmallBankSystem
+namespace EmployeeSalarySystem
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace SmallBankSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SmallBankUI());
+            Application.Run(new ESSUI());
         }
     }
 }

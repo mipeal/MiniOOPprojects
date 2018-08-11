@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EC6C9736-1A41-4B05-9631-87631BDAB4F4}</ProjectGuid>
+    <ProjectGuid>{20C22D82-8AE6-48D4-B91D-539769EC6E61}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SmallBankSystem</RootNamespace>
-    <AssemblyName>SmallBankSystem</AssemblyName>
+    <RootNamespace>UniversitySystem</RootNamespace>
+    <AssemblyName>UniversitySystem</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,18 +44,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Account.cs" />
-    <Compile Include="Model\Customer.cs" />
-    <Compile Include="SmallBankUI.cs">
+    <Compile Include="Model\Department.cs" />
+    <Compile Include="Model\Student.cs" />
+    <Compile Include="Model\University.cs" />
+    <Compile Include="UniversitySystemUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SmallBankUI.Designer.cs">
-      <DependentUpon>SmallBankUI.cs</DependentUpon>
+    <Compile Include="UniversitySystemUI.Designer.cs">
+      <DependentUpon>UniversitySystemUI.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="SmallBankUI.resx">
-      <DependentUpon>SmallBankUI.cs</DependentUpon>
+    <EmbeddedResource Include="UniversitySystemUI.resx">
+      <DependentUpon>UniversitySystemUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
